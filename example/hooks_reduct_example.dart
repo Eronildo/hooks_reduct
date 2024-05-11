@@ -52,7 +52,7 @@ class MyHomePage extends HookWidget {
         ),
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: incrementAction,
+        onPressed: incrementAction.call,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
